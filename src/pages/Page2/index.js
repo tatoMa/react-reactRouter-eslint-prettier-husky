@@ -1,6 +1,6 @@
-import logo from '../../logo.svg';
-import './style.css';
-import { Link } from 'react-router-dom';
+import logo from "../../logo.svg";
+import "./style.css";
+import { Link } from "react-router-dom";
 
 export function PageTwo() {
   return (
@@ -21,11 +21,9 @@ export function PageTwo() {
       </header>
 
       <div className="App-line"></div>
-      
+
       <main className="App-main">
-        <p>
-          Page 2
-        </p>
+        <p>Page 2</p>
 
         <Link to="/" className="App-link">
           Previous Page
